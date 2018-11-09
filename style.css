@@ -1,0 +1,93 @@
+body{
+	background-color: #0e2431;
+	font-family: 'Charmonman'; 	
+	text-align: center;
+	margin-right:auto;
+	margin-left: auto;	
+	}
+
+
+h1 {
+	color: rgba(232,45,13,0.8);
+	text-decoration: underline;
+	}
+
+h2{
+	color: #B8823F;
+	}
+
+
+div .class="card-white"{
+    background: white;
+    padding: 50px 10px;
+    margin: auto;
+    box-shadow: 0px 10px 30px;
+    border-radius: 30px;
+	}
+
+
+img{
+	margin-right: auto;
+	margin-left: auto;
+    border-radius: 400%;
+    box-shadow: 0px 10px 30px  rgba(204,19,18,0.5);
+	}
+
+
+p{
+	color: #f9b248
+	}
+
+
+a {
+   	margin-left: auto;
+   	margin-right: auto;
+    background: rgba(14,36,49,0.4);
+    padding: 5px 10px 5px 10px;
+    box-shadow: 0px 10px 30px  rgba(204,19,18,0.5);
+    border-radius: 4px;
+    border-top-width: 0px;
+    color: #DF1800
+	}
+
+a:hover {
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	}
+
+
+
+.container{
+	width:700px;
+	margin:50px auto;
+	background-color: #0e2431;
+	}
+
+.card-white{
+	background-color: white;
+	padding: 50px 10px;
+	box-shadow: 0px 10px 30px;
+	border-radius: 30px;
+	margin: 20px 0px;
+	text-align: center;
+	}
+
+
+@media (max-width: 960px) {
+  .card-white {
+    width: 700px;
+  }
+}
+
+@media (max-width: 760px) {
+  .card-white {
+    width: 600px;
+  }
+}
+
+@media (max-width: 500px) {
+  .card-white {
+    width: 400px;
+  }
+}
